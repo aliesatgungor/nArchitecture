@@ -13,11 +13,13 @@ public class Mail
 
     public Mail()
     {
+
     }
 
     public Mail(string subject, string textBody, string htmlBody, AttachmentCollection? attachments, string toFullName,
                 string toEmail)
     {
+
         Subject = subject;
         TextBody = textBody;
         HtmlBody = htmlBody;
